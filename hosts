@@ -9,7 +9,7 @@
 ## +-------------------------  >>d(' _ ')b<<  -------------------------+
 ## |                                                                   |
 ## |         Project: https://github.com/lennylxx/ipv6-hosts           |
-## |         Update : Sat, 29 Sep 2018 22:38:16 +0800                  |
+## |         Update : Wed, 26 Dec 2018 22:38:20 +0800                  |
 ## |                                                                   |
 ## +-------------------------------------------------------------------+
 
@@ -448,10 +448,14 @@
 2404:6800:4008:c07::8b storage.cloud.google.com #www3.l.google.com
 2404:6800:4012:1::200e ssh.cloud.google.com
 2404:6800:4008:c07::66 developers.google.com #www3.l.google.com
+2607:f8b0:4000:80d::200a clouderrorreporting.clients6.google.com
+2607:f8b0:4007:804::200a cloudnotifications.clients6.google.com
 2404:6800:4008:c00::8b cloudssh.developers.google.com #www3.l.google.com
 2001:4860:4802:32::1b console.developers.google.com
 2404:6800:4008:c05::52 source.developers.google.com
 2404:6800:4012:1::200a cloudusersettings-pa.clients6.google.com
+2404:6800:4012:1::200a cloudconsole-pa.clients6.google.com
+2404:6800:4008:800::200a monitoring.clients6.google.com
 
 ## Directory 网页目录
 2404:6800:4008:c05::8a directory.google.com #www3.l.google.com
@@ -800,6 +804,9 @@
 #2404:6800:4008:c00::62 rtmp0.google.com
 #2404:6800:4008:c00::62 users.talk.google.com
 2404:6800:4008:c05::bc mtalk.google.com #mobile-gtalk.l.google.com
+
+## Tensorflow 主页
+2404:6800:4005:80d::200e www.tensorflow.org #www3-china.l.google.com
 
 ## Tools 工具
 2404:6800:4008:c07::66 tools.google.com #tools.l.google.com
@@ -24156,8 +24163,10 @@
 2a03:2880:f007:8:face:b00c:0:1 scontent-ort2-1.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-ort2-2.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-otp1-1.xx.fbcdn.net
+2a03:2880:f007:8:face:b00c:0:1 scontent-prg1-1.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-scl1-1.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-sea1-1.xx.fbcdn.net
+2a03:2880:f007:8:face:b00c:0:1 scontent-sin2-2.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-sin6-1.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-sin6-2.xx.fbcdn.net
 2a03:2880:f007:8:face:b00c:0:1 scontent-sit4-1.xx.fbcdn.net
@@ -24378,8 +24387,10 @@
 2a03:2880:f227:c4:face:b00c:0:43fe scontent-ort2-1.cdninstagram.com
 2a03:2880:f227:2c4:face:b00c:0:43fe scontent-ort2-2.cdninstagram.com
 2a03:2880:f223:c4:face:b00c:0:43fe scontent-otp1-1.cdninstagram.com
+2a03:2880:f223:c4:face:b00c:0:43fe scontent-prg1-1.cdninstagram.com
 2a03:2880:f22e:c4:face:b00c:0:43fe scontent-scl1-1.cdninstagram.com
 2a03:2880:f201:c4:face:b00c:0:43fe scontent-sea1-1.cdninstagram.com
+2a03:2880:f20c:2c4:face:b00c:0:43fe scontent-sin2-2.cdninstagram.com
 2a03:2880:f20c:c4:face:b00c:0:43fe scontent-sin6-1.cdninstagram.com
 2a03:2880:f20c:2c4:face:b00c:0:43fe scontent-sin6-2.cdninstagram.com
 2a03:2880:f226:c4:face:b00c:0:43fe scontent-sit4-1.cdninstagram.com
@@ -25475,7 +25486,7 @@
 #2620:101:8008:5::2:8 firefox.com
 
 ## Microsoft 微软
-2600:1406:3f:299::747 www.microsoft.com #e10088.dscb.akamaiedge.net
+2600:1406:3f:299::356e www.microsoft.com #e10088.dscb.akamaiedge.net
 2600:1406:3f:299::2886 i.microsoft.com
 2600:1406:3f:299::2886 i2.microsoft.com #i.microsoft.com.edgekey.net
 2600:1406:3f:299::2886 i3.microsoft.com #i.microsoft.com.edgekey.net
@@ -25484,16 +25495,17 @@
 2606:2800:11f:17a5:191a:18d5:537:22f9 software-download.microsoft.com #cs9.wpc.v0cdn.net
 2606:2800:11f:17a5:191a:18d5:537:22f9 ajax.aspnetcdn.com #cs9.wpc.v0cdn.net
 2606:2800:11f:7de:d31:7db:168f:1225 download.visualstudio.microsoft.com #cs10.wpc.v0cdn.net
-2400:a980:ff:f9::2:3 download.windowsupdate.com #download.windowsupdate.com.bsgslb.cn
-2400:a980:ff:f9::2:3 dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
-2400:a980:ff:f9::2:3 tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
-2400:a980:ff:f9::2:3 8.tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
-2400:a980:ff:f9::2:3 10.tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
+2400:a980:fd:6:11::14 download.windowsupdate.com #download.windowsupdate.com.bsgslb.cn
+2400:a980:fd:6:11::14 dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
+2400:a980:fd:6:11::14 tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
+2400:a980:fd:6:11::14 8.tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
+2400:a980:fd:6:11::14 10.tlu.dl.delivery.mp.microsoft.com #tlu.dl.delivery.mp.microsoft.com.bsgslb.cn
 2620:1ec:c11::212 onedrive.live.com #skyweb.skyprod.akadns.net
 157.55.109.232 skyapi.onedrive.live.com #odc-common-emea-meta-geo.onedrive.akadns.net
 2620:1ec:c11::212 storage.live.com
-2600:1406:3f:299::1aff s1-word-view-15.cdn.office.net #wildcard.cdn.office.net.edgekey.net
-2600:1406:3f:299::1aff s1-officeapps-15.cdn.office.net #e6911.dspg.akamaiedge.net
+2600:1406:3f:299::1c24 s1-word-view-15.cdn.office.net #wildcard.cdn.office.net.edgekey.net
+2600:1406:3f:299::1c24 s1-officeapps-15.cdn.office.net #e6911.dspg.akamaiedge.net
+2600:1406:3f:299::6bb officecdn.microsoft.com #e1723.dscd.akamaiedge.net
 2620:1ec:c11::200 www.bing.com
 2620:1ec:c11::200 www2.bing.com
 2620:1ec:c11::200 cn.bing.com
@@ -25510,6 +25522,7 @@
 #2a01:111:2003::200 tse3-mm.cn.bing.net
 #2a01:111:2003::200 tse4-mm.cn.bing.net
 2600:1406:3f::17d7:6464 a248.e.akamai.net
+2600:1417:8000::b81c:da83 img-s-msn-com.akamaized.net #a1834.dspg2.akamai.net
 
 ## ARIN
 2001:500:4:c000::43 www.arin.net
